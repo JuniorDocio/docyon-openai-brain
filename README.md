@@ -17,8 +17,7 @@ Principais funcionalidades deste projeto:
 1. Instale o pacote necessário:<br/>
   *pip install openai*
    
-2. Instale o pacote necessário:<br/> 
-   Para testar sem consumir a API real, basta manter a variável **<modo_teste>** como **<True>**.
+2. Para testar sem consumir a API real, basta manter a variável **<modo_teste>** como **<True>**.
    O mock já está implementado no script e pronto para uso.
 
 ## Modo Simulado
