@@ -20,7 +20,7 @@ Principais funcionalidades deste projeto:
 2. Para testar sem consumir a API real, basta manter a variável **<modo_teste>** como **True**. O mock já está implementado no script e pronto para uso.
 
 ## Modo Simulado
-Este projeto inclui uma função mock que imita o comportamento da API. Quando **<modo_teste>** está definido como **True**, todas as entradas recebem uma resposta simulada baseada na última mensagem do usuário. Isso permite testar a funcionalidade sem internet ou chave da API ativa. 🧪
+Este projeto inclui uma função mock que imita o comportamento da API. Quando **<modo_teste>** está definido como **True**, todas as entradas recebem uma resposta simulada baseada na última mensagem do usuário. Isso permite testar a funcionalidade sem internet ou chave da API ativa. 🧪</br>
 Ideal para momentos em que o lendário Docyon está só querendo brincar sem gastar tokens.
 
 ## Exemplo
