@@ -1,30 +1,30 @@
-# 🤖 Docyon: ChatGPT no Terminal com API da OpenAI
+# 🤖 Docyon: ChatGPT in the Terminal with OpenAI API
 
-Este projeto implementa **Docyon**, um chatbot conversacional utilizando o modelo **GPT-3.5-Turbo** da OpenAI no terminal. Ele conta com histórico de mensagens e suporta um modo simulado (mock) para testar sem consumir créditos da API, sendo ideal para testes e experimentações. 🗨️
+This project implements **Docyon**, a conversational chatbot using the **GPT-3.5-Turbo** model from OpenAI in the terminal. It features message history and supports a mock mode for testing without consuming API credits, making it ideal for testing and experimentation. 🗨️
 
-## Visão Geral  
-O sistema simula uma conversa com o **Docyon** diretamente no terminal. Usuários podem enviar mensagens e receber respostas em tempo real do modelo GPT-3.5-Turbo. Um modo simulado também está disponível, permitindo respostas sem conexão com a API real — ótimo para desenvolvimento e testes. 🖥️
+## Overview  
+The system simulates a conversation with **Docyon** directly in the terminal. Users can send messages and receive real-time responses from the GPT-3.5-Turbo model. A mock mode is also available, allowing responses without connecting to the real API — great for development and testing. 🖥️
 
-Esse projeto pode ser utilizado em diversas aplicações práticas, como suporte ao cliente, automação de tarefas, ou até mesmo como uma ferramenta educacional para interação com alunos. Ele também pode servir para prototipar chatbots customizados para empresas.
+This project can be used in various practical applications, such as customer support, task automation, or even as an educational tool for interacting with students. It can also serve to prototype custom chatbots for businesses.
 
-Principais funcionalidades deste projeto:
-- 🧠 **Interação com o GPT-3.5-Turbo** via API da OpenAI  
-- 🧪 **Suporte a respostas simuladas (mock)** para testes locais sem custo  
-- 📝 **Manutenção do histórico de mensagens** durante a sessão para respostas contextuais  
-- 🖥️ **Interface baseada no terminal**, simples e acessível  
+Key features of this project:
+- 🧠 **Interaction with GPT-3.5-Turbo** via OpenAI API  
+- 🧪 **Support for simulated (mock) responses** for local testing without cost  
+- 📝 **Message history maintenance** during the session for contextual responses  
+- 🖥️ **Terminal-based interface**, simple and accessible  
 
-## Como Usar
-1. Instale o pacote necessário:<br/>
+## How to Use
+1. Install the required package:<br/>
   *pip install openai*
-   
-2. Para testar sem consumir a API real, basta manter a variável **<modo_teste>** como **True**. O mock já está implementado no script e pronto para uso.
 
-## Modo Simulado
-Este projeto inclui uma função mock que imita o comportamento da API. Quando **<modo_teste>** está definido como **True**, todas as entradas recebem uma resposta simulada baseada na última mensagem do usuário. Isso permite testar a funcionalidade sem internet ou chave da API ativa. 🧪</br>
-Ideal para momentos em que o lendário Docyon está só querendo brincar sem gastar tokens.
+2. To test without consuming the real API, just keep the variable **<test_mode>** set to **True**. The mock is already implemented in the script and ready for use.
 
-## Exemplo
-*O que está pensando? Qual a capital da França?*  
-Docyon: *Você disse: 'Qual a capital da França?'. Isso é muito interessante! =)*
+## Simulated Mode
+This project includes a mock function that mimics the behavior of the API. When **<test_mode>** is set to **True**, all inputs receive a simulated response based on the user's last message. This allows testing the functionality without an internet connection or an active API key. 🧪</br>
+Ideal for moments when the legendary Docyon just wants to play around without spending tokens.
 
-*O que está pensando? sair*
+## Example
+*What are you thinking? What's the capital of France?*  
+Docyon: *You said: 'What's the capital of France?'. That's very interesting! =)*
+
+*What are you thinking? leave*
